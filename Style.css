@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background: #FCFCFC;
+}
+
+#main_contner {
+  top: 50%;
+  left: 50%;
+  width: 330px;
+  height: 450px;
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 30px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px #E4E4E4;
+  overflow: hidden;
+}
+
+#logo {
+  margin: 2px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%,-5%);
+  z-index: 2;
+}
+
+#profile{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 2.9%;
+  left: 51%;
+  transform: translate(-51%,-2.9%);
+}
+
+svg{
+  width: 120px;
+  height: 120px;
+  z-index: 1;
+}
+
+circle {
+  position: absolute;
+  fill: none;
+  stroke-width: 5px;
+  stroke: #854FED;
+  stroke-dashoffset: 40;
+  stroke-dasharray: 280;
+  stroke-linecap: round;
+}
+
+#name {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%,-32%);
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  color: #232323;
+  font-weight: bold;
+}
+
+#level {
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%,-39%);
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  color: #D1D1D1;
+}
+
+
+#score {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+
+.crown{
+  width: 165px;
+  height: 160px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crown-img{
+  width: 120px;
+  height: 120px;
+}
+
+.star{
+  width: 165px;
+  height: 160px;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px solid #F5F5F5;
+}
+
+.star-img{
+  width: 120px;
+  height: 120px;
+}
+
+.rank, .point{
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  position: absolute;
+  top: 115px;
+}
+
+button {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: none;
+  display: block;
+  width: 98%;
+  height: 50px;
+  border: none;
+  border-top: 2px solid #F5F5F5;
+  font-weight: bold;
+  color: #854FED;
+}
+
+button:hover{
+  color: #5176E0;
+}
